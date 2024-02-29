@@ -7,3 +7,6 @@ Wed 28 Feb 2024 11:23:56 AM PST
 Wed 28 Feb 2024 01:15:08 PM PST
 * `:r! date` in vi/Unix to datestamp (a reminder). There's a vim builtin too.
 * Initial commit with a break-out of [goals](../goals.md) and [taskflow](../taskflow.md).
+
+Thu 29 Feb 2024 02:20:38 PM PST
+* Setting up to pair and do an initial install of a Phoenix project `mix phx.new wiki`
