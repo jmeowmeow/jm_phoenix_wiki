@@ -45,3 +45,19 @@ You can also run your app inside IEx (Interactive Elixir) as:
 
     $ iex -S mix phx.server
 ```
+
+Results of "mix phx.new --no-ecto wiki"
+
+```
+We are almost there! The following steps are missing:
+
+    $ cd wiki
+
+Start your Phoenix app with:
+
+    $ mix phx.server
+
+You can also run your app inside IEx (Interactive Elixir) as:
+
+    $ iex -S mix phx.server
+```
