@@ -7,7 +7,7 @@ work out once the project is in the circle of life. See [goals](../goals.md) for
 * [X] Set up git repo structure.
 * [X] Create a tabular links file [./links](./links.md) for project information sources. Maybe this ends up in the wiki later.
 * [X] Add Elixir links (hexdocs.pm, elixir-lang.org, phoenixframework.org) to the links file.
-* [ ] Publish to GitHub. Maybe to Sourcehut later on.
+* [X] Publish to GitHub. Maybe to Sourcehut later on.
 * [ ] Read about how to start a Phoenix webapp project.
 * [ ] Add Phoenix how-to link to the links file.
 * [ ] Initialize a Phoenix hello-world project. 
