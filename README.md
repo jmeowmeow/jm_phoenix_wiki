@@ -8,6 +8,13 @@ Inspired by the Copenhagen Elixir group's project [pwiki_workshop](https://githu
 
 Motivated by job readiness and relevance.
 
+## Startup
+```
+cd wiki
+mix phx.server
+```
+Starting in this mode includes a filesystem watch, restarting Phoenix on an update.
+
 ## Goals
 * Learning Elixir using a familiar interaction mode (wiki).
 * Portfolio.
@@ -30,4 +37,3 @@ Motivated by job readiness and relevance.
 ### Task Flow
 I'm using kanban single-piece flow and Mitchell Hashimoto's demo driven development as general inspiration.
 
-Details in [taskflow](./taskflow.md).
