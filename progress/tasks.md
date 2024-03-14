@@ -12,6 +12,8 @@ work out once the project is in the circle of life. See [goals](../goals.md) for
 * [X] Read about how to start a Phoenix webapp project.
 * [X] Install Phoenix and prerequisites.
 * [X] Database or no database? What happens if we say no now? _Punted._ `mix phx.new --no-ecto wiki` At this point it's OK to rebuild the Phoenix app with or without DB.
-* [X] Initialize a Phoenix hello-world project.
-* [ ] Find out how to add Elixir (mix) build and test targets. Doc/link this.
-* [ ] Add build, run, and test targets following a typical model or per Phoenix guides.
+* [X] Initialize a Phoenix hello-world project. `mix phx.new --no-ecto wiki`
+* [X] Run: `cd wiki; mix phx.server` also watches for changes and rebuilds (== devserver task)
+* [X] Change a file (the template for the home page) by changing SVG logo colors, reload and see the change.
+* [?] Find out how to add Elixir (mix) build and test targets. Doc/link this.
+* [ ] Routes?
