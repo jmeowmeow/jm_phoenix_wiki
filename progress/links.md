@@ -18,14 +18,16 @@ a tabular list of links.
 | Guide        | Link | Description |
 |--------------|------|-------------|
 | Installation | [Installation](https://hexdocs.pm/phoenix/installation.html) | Erlang 24+, Elixir 1.14+, Phoenix, phx.new mix tasks |
-| Running      | [Up and Running](https://hexdocs.pm/phoenix/up_and_running.html) | `mix phx.new wiki` possibly `--no-ecto` |
+| Running      | [Up and Running](https://hexdocs.pm/phoenix/up_and_running.html) | `mix phx.new --umbrella wiki` possibly `--no-ecto` |
 | mix phx.new  | [hexdocs phx.new](https://hexdocs.pm/phoenix/Mix.Tasks.Phx.New.html) | new Phoenix app mix task docs/opts |
 | mix tasks    | [mix tasks](https://hexdocs.pm/phoenix/mix_tasks.html) | guide to mix tasks for Phoenix and Ecto |
-| Testing      | [Testing](https://hexdocs.pm/phoenix/testing.html) | contexts for testing etc |
+| Testing      | [Testing](https://hexdocs.pm/phoenix/testing.html) | `mix test` and contexts for testing etc |
+| Assets       | [Asset Management](https://hexdocs.pm/phoenix/asset_management.html) | complex front-end builds, SASS, enabling esbuild plugins |
 | Deployment   | [Deployment](https://hexdocs.pm/phoenix/deployment.html) | build and deploy, secrets management, cloud app hosts |
 | Releases     | [Releases]( ) | including schema migration and such |
 
 ![phoenix-hexdocs-1.7.11-install.png](./phoenix-hexdocs-1.7.11-install.png) 
+
 
 Results of "mix phx.new wiki"
 ```
@@ -46,12 +48,14 @@ You can also run your app inside IEx (Interactive Elixir) as:
     $ iex -S mix phx.server
 ```
 
-Results of "mix phx.new --no-ecto wiki"
+_After Phoenix upgrade and revamp of_ `phx.new` _tasks_
+
+Results of "mix phx.new --umbrella --no-ecto wiki"
 
 ```
 We are almost there! The following steps are missing:
 
-    $ cd wiki
+    $ cd wiki_umbrella
 
 Start your Phoenix app with:
 
