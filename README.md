@@ -10,10 +10,13 @@ Motivated by job readiness and relevance.
 
 ## Startup
 ```
-cd wiki
+cd wiki_umbrella
 mix phx.server
 ```
-Starting in this mode includes a filesystem watch, restarting Phoenix on an update.
+Starting in this mode includes a filesystem watch, reloading Phoenix on an update.
+
+Note that in this "hello world" state with a new app, there's no code committed.
+See [progress/links](./progress/links.md) for docs and details of new Phoenix project setup.
 
 ## Goals
 * Learning Elixir using a familiar interaction mode (wiki).
@@ -36,4 +39,6 @@ Starting in this mode includes a filesystem watch, restarting Phoenix on an upda
 
 ### Task Flow
 I'm using kanban single-piece flow and Mitchell Hashimoto's demo driven development as general inspiration.
+
+* [task flow](./taskflow.md)
 
